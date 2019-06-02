@@ -1,0 +1,1 @@
+Coffee{type=Espresso, beans=7, milk=0}
