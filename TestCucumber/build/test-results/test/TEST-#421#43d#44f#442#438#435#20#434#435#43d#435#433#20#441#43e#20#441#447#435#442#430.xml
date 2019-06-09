@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Снятие денег со счета" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-01T19:35:22" hostname="Александра" time="0.047">
+  <properties/>
+  <testcase name="Создание файла" classname="Снятие денег со счета" time="0.022"/>
+  <testcase name="Создание файла" classname="Снятие денег со счета" time="0.022"/>
+  <system-out><![CDATA[String filetest1.txt  is valid
+?[32m.?[0mFile filetest1.txt  is created
+?[32m.?[0mFile filetest1.txt  exists!
+?[32m.?[0mString e:\testfile1.txt is valid
+?[32m.?[0mFile e:\testfile1.txt is created
+?[32m.?[0mFile e:\testfile1.txt exists!
+?[32m.?[0m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

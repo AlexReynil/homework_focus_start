@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.company'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileJava.options.encoding = 'UTF-8'
+    compileTestJava.options.encoding = 'UTF-8'
+    compile 'io.cucumber:cucumber-java:4.3.1'
+    compile 'io.cucumber:cucumber-junit:4.3.1'
+    compile 'junit:junit:4.12'
+
+    compile 'org.projectlombok:lombok:1.18.8'
+}
